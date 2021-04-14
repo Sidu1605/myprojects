@@ -1,0 +1,7 @@
+1   --   creating databases (staging and data warehouse database)
+2   --   creating staging database tables
+3   --   loading data into local system into staging databases
+4   --   creating duplicate record tables in staging database
+5   --   loading data into duplicate record tables 
+6   --   creating data warehouse tables
+7   --   loading data into dimension and fact tables
