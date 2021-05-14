@@ -41,6 +41,7 @@
     5. Converting Categorical features into numarical or binary values.
         a. Odinal features classes Converted into numarical values
         b. Nominal features class Converted into binary values.
+    6.base model with ols
         
 ### 3.Feature Selection and Model building
     1. Create Result table
