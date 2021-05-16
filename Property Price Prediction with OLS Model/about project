@@ -4,11 +4,11 @@
      1. Splitted dataset as train and test sets
      2. Data Analysis and Preparation
          a. Understand the dataset
-         b. checking datatypes and find whether any values are miss leading 
-         c. reducing large unique class in categorical features.
-         d.checking statistical summary
+         b. Checking datatypes and find whether any values are miss leading 
+         c. Reducing large unique class in categorical features.
+         d. Checking statistical summary
          e. Checking Distribution of Variables using various plots
-             1. Distribution of Numarical features
+             1. Distribution of Numerical features
                    A. Distribution of Discrete variables
                        1. Counting Discrete feature class
                        2. Comparing Discrete feature calss using Property_Sale_Price feature
@@ -20,15 +20,15 @@
                     A. Counting Categorical feature classes.
                     B. Comparing Categorical feature classes using Property_Sale_Price feature.
     ## backup the datasets
-### 2.   Feature Engineering Functions Created and played with those functions. 
+### 2. Feature Engineering Functions Created and played with those functions. 
     0. Imported Libraries and Datasets witch helps to Feature Engineering.
     1. outliers,
-        a. check outliers with boxplot for continuous features
-        b. treated Outliers with Winsorization Technique
+        a. Checked outliers with boxplot for continuous features
+        b. Treated Outliers with Winsorization Technique
     2. missing values,
         a. Created table for missing values details 
-        b. checked whether Independent feature null values mean effection on not null values mean.
-        c. plot heatmap for null values
+        b. Checked whether Independent feature null values mean effection on not null values mean.
+        c. Plot heatmap for null values
         d. Treated null values based on null values status in the Independent and Dependent features 
     3. Multi-Colinearity Treatment
         a. Check Colinearity using Correlation matrix and plot heatmap
@@ -38,8 +38,8 @@
         b. my train and test datasets independent features not same so i treated two way.
                1. if missing class values count is less then 20 then, converted those class with mode
                2. if missing class values count is greater then 20 or 20 then, imported missing class  
-    5. Converting Categorical features into numarical or binary values.
-        a. Ordinal features classes Converted into numarical values
+    5. Converting Categorical features into numerical or binary values.
+        a. Ordinal features classes Converted into numerical values
         b. Nominal features class Converted into binary values.
     6.base model with ols
         
